@@ -38,4 +38,75 @@ sources:
             tests:
               - unique
               - not_null
-                  
+      - name: adwords
+        identifier: raw_gz_adwords
+        description: marketing campaign done with adwords / identified with campaign key
+        columns : 
+          - name: date_date
+            description : dates of the campaign
+          - name: paid_source
+            description: name of the source where the campaign was done
+          - name: campaign_key
+            description: unique identifier code for the campaign
+          - name: camPGN_name
+            description: name of the campaign 
+          - name: ads_cost
+            description: total cost of the campaign
+          - name: impression
+            description: nb of impressions per campaign key 
+          - name: click
+            description: nb of click per campaign key 
+      - name: bing
+        identifier: raw_gz_bing
+        description: marketing campaign done with bing / identified with campaign key
+        columns : 
+          - name: date_date
+            description : dates of the campaign
+          - name: paid_source
+            description: name of the source where the campaign was done
+          - name: campaign_key
+            description: unique identifier code for the campaign
+          - name: camPGN_name
+            description: name of the campaign 
+          - name: ads_cost
+            description: total cost of the campaign
+          - name: impression
+            description: nb of impressions per campaign key 
+          - name: click
+            description: nb of click per campaign key 
+      - name: criteo
+        identifier: raw_gz_criteo
+        description: marketing campaign done with criteo / identified with campaign key
+        columns : 
+          - name: date_date
+            description : dates of the campaign
+          - name: paid_source
+            description: name of the source where the campaign was done
+          - name: campaign_key
+            description: unique identifier code for the campaign
+          - name: camPGN_name
+            description: name of the campaign 
+          - name: ads_cost
+            description: total cost of the campaign
+          - name: impression
+            description: nb of impressions per campaign key 
+          - name: click
+            description: nb of click per campaign key 
+      - name: facebook
+        identifier: raw_gz_facebook
+        description: marketing campaign done with facebook / identified with campaign key
+        columns : 
+          - name: date_date
+            description : dates of the campaign
+          - name: paid_source
+            description: name of the source where the campaign was done
+          - name: campaign_key
+            description: unique identifier code for the campaign
+          - name: camPGN_name
+            description: name of the campaign 
+          - name: ads_cost
+            description: total cost of the campaign
+          - name: impression
+            description: nb of impressions per campaign key 
+          - name: click
+            description: nb of click per campaign key
