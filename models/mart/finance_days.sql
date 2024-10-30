@@ -1,6 +1,3 @@
- {{ config(materialized='table') }}
-
-
 select
     ordop.date_date,
     count(ordop.orders_id) as nb_transactions,
